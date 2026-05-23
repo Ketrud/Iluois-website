@@ -123,7 +123,7 @@ export const services = {
       bullets: ['Hingamine', 'Painduvus', 'Rahunemine', 'Taastumine'],
     },
     {
-      slug: 'hooldusteenus',
+      slug: 'hooldusteenused',
       title: 'Hooldusteenus',
       excerpt: 'Hooliv ja toetav lähenemine igapäevase heaolu ning elukvaliteedi hoidmiseks.',
       body:
@@ -161,7 +161,7 @@ export const services = {
       bullets: ['Breathing', 'Flexibility', 'Calm', 'Restoration'],
     },
     {
-      slug: 'hooldusteenus',
+      slug: 'hooldusteenused',
       title: 'Care services',
       excerpt: 'A caring and supportive approach to everyday wellbeing and quality of life.',
       body:
