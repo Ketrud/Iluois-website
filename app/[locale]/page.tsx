@@ -42,16 +42,21 @@ export default function Home({ params }: { params: { locale: Locale } }) {
           </div>
         </Reveal>
 
-        <Reveal delay={0.15}>
-          <div className="relative flex items-center justify-center">
-            <div className="absolute h-96 w-96 animate-pulse rounded-full border border-violet-200" />
-            <div className="absolute h-full w-full max-w-lg rounded-full border border-blue-100" />
-            <div className="soft-card relative rounded-organic p-10">
-              <Image src="/logo.png" alt="Iluõis logo" width={320} height={320} priority className="object-contain" />
-            </div>
-          </div>
-        </Reveal>
-      </section>
+    <Reveal delay={0.15}>
+  <div className="relative flex items-center justify-center">
+    <div className="absolute h-96 w-96 animate-pulse rounded-full border border-violet-200/60" />
+    <div className="absolute h-full w-full max-w-lg rounded-full border border-blue-100/60" />
+
+    <Image
+      src="/logo.png"
+      alt="Iluõis logo"
+      width={320}
+      height={320}
+      priority
+      className="relative z-10 h-auto w-[320px] object-contain"
+    />
+  </div>
+</Reveal>
 
       <section className="bg-[#fffafa] px-6 py-24 md:px-10">
         <div className="mx-auto max-w-7xl">
