@@ -31,7 +31,7 @@ export default function Service({ params }: { params: { locale: Locale } }) {
             <p className="mb-6 text-xs uppercase tracking-widest text-roseGoldDeep">Iluõis · {service.keywords}</p>
             <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
               <div>
-                <h1 className="luxury-title mb-8 text-6xl leading-tight pb-2 md:text-7xl">{service.title}</h1>
+                <h1 className="luxury-title mb-8 text-5xl leading-tight md:text-7xl">{service.title}</h1>
                 <p className="mb-8 max-w-3xl text-xl leading-relaxed text-ink">{service.excerpt}</p>
                 <p className="max-w-3xl text-lg leading-relaxed text-ink">{service.body}</p>
               </div>
