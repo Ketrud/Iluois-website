@@ -67,8 +67,8 @@ export default function Service({ params }: { params: { locale: Locale } }) {
   title={params.locale === 'et' ? 'Atmosfäär' : 'Atmosphere'}
   text={
     params.locale === 'et'
-      ? 'Massaaž võib toimuda nii Sinu kodus kui ka minu poolt pakutavas rahulikus ja hubases ruumis. Kohtumisel arvestan Sinu vajaduste, enesetunde ja soovidega, et luua turvaline, hooliv ja toetav õhkkond, kus saad end tunda vabalt ja hoitult.'
-      : 'The massage can take place either in your home or in a calm and cosy space provided by me. During the session, I take your needs, wellbeing and wishes into account to create a safe, caring and supportive atmosphere where you can feel free and held.'
+      ? 'Joogapraktika ja meditatsioon võivad toimuda kliendi kodus, tuttavas keskkonnas. Minu poolt pakutavas rahulikus ruumis on võimalik kohtuda ainult meditatsioonideks. Koos loome õhkkonna, kus saad tunda end vabalt ja toetatult.'
+      : 'Yoga practice and meditation can take place in the client’s home, in a familiar environment. In the calm space provided by me, it is possible to meet only for meditations. Together, we create an atmosphere where you can feel free and supported.'
   }
 />
           <InfoCard title={params.locale === 'et' ? 'Broneerimine' : 'Booking'} text={params.locale === 'et' ? 'Võta ühendust e-posti või telefoni teel ning leiame sulle sobiva aja ja teenuse.' : 'Get in touch by email or phone and we will find the right time and service for you.'} />
