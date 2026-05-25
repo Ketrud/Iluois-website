@@ -168,59 +168,6 @@ export default function Home({ params }: { params: { locale: Locale } }) {
           </Reveal>
         </div>
       </section>
-
-            <section id="minust" className="bg-[#fbf7f2] px-6 py-24 md:px-10">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
-          <Reveal>
-            <div className="overflow-hidden rounded-organic border border-[#e8c7cd] bg-white p-3 shadow-soft">
-              <Image
-                src="/images/minust-hooldus.png"
-                alt="Ketrud Tühane - hooldus, massaaž ja inimese toetamine"
-                width={900}
-                height={1100}
-                className="h-full w-full rounded-organic object-cover"
-              />
-            </div>
-          </Reveal>
-
-          <Reveal delay={0.12}>
-            <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-roseGoldDeep">
-                Minust
-              </p>
-
-              <h2 className="rose-heading mb-8 text-4xl leading-tight md:text-5xl">
-                Minu teekond inimesteni
-              </h2>
-
-              <div className="space-y-5 text-lg leading-relaxed text-ink">
-                <p>
-                  Olen tegelenud terve oma teadliku elu inimestega. Üle kahekümne aasta
-                  olen töötanud massaažiterapeudina ning selle teekonna jooksul puutunud
-                  kokku väga erinevate inimeste, lugude ja vajadustega.
-                </p>
-
-                <p>
-                  Aastate jooksul on mind kõnetanud erinevad praktikad ja lähenemised,
-                  mis toetavad inimese terviklikku heaolu – keha, meele ja sisemise
-                  tasakaalu hoidmist.
-                </p>
-
-                <p>
-                  Täna on see teekond toonud mind õppima Tallinna Tervishoiu Kõrgkooli
-                  hooldustöötaja kutseõppesse. Soovin ühendada oma varasema kogemuse,
-                  teadmised ja hooliva kohalolu praktiliste oskustega, et pakkuda
-                  inimestele tuge, väärikust ja soojust elu erinevates etappides.
-                </p>
-
-                <p className="border-l-4 border-[#c99ca3] pl-5 italic text-roseGoldDeep">
-                  Hoolimine ei ole minu jaoks lihtsalt töö — see on kutsumus.
-                </p>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
       <section className="px-6 py-28 text-center md:px-10">
         <Reveal>
           <blockquote className="luxury-title mx-auto max-w-4xl whitespace-pre-line text-4xl leading-tight md:text-6xl">
