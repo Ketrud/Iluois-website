@@ -56,7 +56,14 @@ export default function Service({ params }: { params: { locale: Locale } }) {
       <section className="mx-auto max-w-7xl px-6 pb-24 md:px-10">
         <div className="grid gap-8 md:grid-cols-3">
           <InfoCard title={params.locale === 'et' ? 'Kuidas kohtumine kulgeb' : 'How the session flows'} text={params.locale === 'et' ? 'Alustame lühikese vestlusega, et mõista sinu vajadusi. Seejärel loon rahuliku ja toetava protsessi, mis sobitub sinu hetke seisundiga.' : 'We begin with a short conversation to understand your needs. Then we create a calm and supportive process that fits your current state.'} />
-          <InfoCard title={params.locale === 'et' ? 'Atmosfäär' : 'Atmosphere'} text={params.locale === 'et' ? 'Iluõie keskkond on pehme, esteetiline ja rahulik. Eesmärk on, et tunneksid end hoitud, turvaliselt ja vabalt.' : 'The atmosphere is soft, aesthetic and calm, created so you can feel held, safe and free.'} />
+          <InfoCard
+  title={params.locale === 'et' ? 'Atmosfäär' : 'Atmosphere'}
+  text={
+    params.locale === 'et'
+      ? 'Teenus toimub kliendi kodus, tuttavas ja turvalises keskkonnas. Kohtumisel arvestan kliendi vajaduste, enesetunde ja soovidega. Eesmärk on luua rahulik, hooliv ja toetav õhkkond, kus klient saab end tunda vabalt ja hoitult.'
+      : 'The service takes place in the client’s home, in a familiar and safe environment. During the meeting, I take into account the client’s needs, wellbeing and wishes. The aim is to create a calm, caring and supportive atmosphere where the client can feel free and held.'
+  }
+/>
           <InfoCard title={params.locale === 'et' ? 'Broneerimine' : 'Booking'} text={params.locale === 'et' ? 'Võta ühendust e-posti või telefoni teel ning leiame sulle sobiva aja ja teenuse.' : 'Get in touch by email or phone and we will find the right time and service for you.'} />
         </div>
 
