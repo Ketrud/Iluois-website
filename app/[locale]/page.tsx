@@ -157,7 +157,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
                   key={item}
                   className="flex items-center gap-5 border-b border-[#ead6d9] py-5 last:border-none"
                 >
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-roseGold text-white">
+                  <span className="animate-soft-glow flex h-12 w-12 items-center justify-center rounded-full bg-roseGold text-white">
                     ✦
                   </span>
 
