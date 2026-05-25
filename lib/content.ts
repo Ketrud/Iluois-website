@@ -12,6 +12,7 @@ export const contact = {
 export const nav = {
   et: [
     { href: '/et', label: 'Avaleht' },
+    { href: '/et/minust', label: 'Minust' },
     { href: '/et/massaz', label: 'Massaaž' },
     { href: '/et/teraapia', label: 'Teraapia' },
     { href: '/et/jooga', label: 'Jooga' },
@@ -20,6 +21,7 @@ export const nav = {
   ],
   en: [
     { href: '/en', label: 'Home' },
+    { href: '/en/about', label: 'About me' },
     { href: '/en/massaz', label: 'Massage' },
     { href: '/en/teraapia', label: 'Therapy' },
     { href: '/en/jooga', label: 'Yoga' },
