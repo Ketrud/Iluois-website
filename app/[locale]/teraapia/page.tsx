@@ -55,7 +55,14 @@ export default function Service({ params }: { params: { locale: Locale } }) {
 
       <section className="mx-auto max-w-7xl px-6 pb-24 md:px-10">
         <div className="grid gap-8 md:grid-cols-3">
-          <InfoCard title={params.locale === 'et' ? 'Kuidas kohtumine kulgeb' : 'How the session flows'} text={params.locale === 'et' ? 'Alustame lühikese vestlusega, et mõista sinu vajadusi. Seejärel loon rahuliku ja toetava protsessi, mis sobitub sinu hetke seisundiga.' : 'We begin with a short conversation to understand your needs. Then we create a calm and supportive process that fits your current state.'} />
+          <InfoCard
+  title={params.locale === 'et' ? 'Kuidas kohtumine kulgeb' : 'How the session flows'}
+  text={
+    params.locale === 'et'
+      ? 'Kohtumine algab rahuliku vestlusega, kus saad jagada seda, mis on Sinu jaoks oluline. Lähtume Sinu vajadustest, enesetundest ja valmisolekust liikuda edasi Sulle sobivas tempos.'
+      : 'The session begins with a calm conversation where you can share what feels important to you. We are guided by your needs, wellbeing and readiness to move forward at a pace that feels right for you.'
+  }
+/>
           <InfoCard
   title={params.locale === 'et' ? 'Atmosfäär' : 'Atmosphere'}
   text={
