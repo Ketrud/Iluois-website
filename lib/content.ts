@@ -21,7 +21,7 @@ export const nav = {
   ],
   en: [
     { href: '/en', label: 'Home' },
-    { href: '/en/about', label: 'About me' },
+    { href: '/en/minust', label: 'About me' },
     { href: '/en/massaz', label: 'Massage' },
     { href: '/en/teraapia', label: 'Therapy' },
     { href: '/en/jooga', label: 'Yoga' },
