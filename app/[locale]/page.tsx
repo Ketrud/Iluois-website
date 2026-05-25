@@ -106,7 +106,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
                   href={`/${params.locale}/${service.slug}`}
                   className="soft-card group block h-full rounded-organic p-8 transition hover:-translate-y-2"
                 >
-                  <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full border border-[#e8c7cd] bg-white text-xl text-roseGold">
+                  <div className="animate-soft-glow mb-8 flex h-14 w-14 items-center justify-center rounded-full border border-[#e8c7cd] bg-white text-xl text-roseGold">
                     ✦
                   </div>
 
