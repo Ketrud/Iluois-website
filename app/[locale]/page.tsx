@@ -73,7 +73,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
               width={320}
               height={320}
               priority
-              className="relative z-10 h-auto w-[320px] object-contain"
+              className="animate-float relative z-10 h-auto w-[320px] object-contain"
             />
           </div>
         </Reveal>
