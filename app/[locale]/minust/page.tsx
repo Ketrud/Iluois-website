@@ -12,10 +12,10 @@ export default function MinustPage({
 
   return (
     <PageShell locale={params.locale}>
-      <section className="bg-[#fbf7f2] px-6 py-24 md:px-10">
+      <section className="px-6 py-24 md:px-10">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <Reveal>
-            <div className="overflow-hidden rounded-organic border border-[#e8c7cd] bg-white p-3 shadow-soft">
+            <div className="overflow-hidden rounded-organic border border-[#e6c7cd] bg-white/80 p-3 shadow-soft">
               <Image
                 src="/images/minust-hooldus.png"
                 alt="Ketrud Tühane - hooldus, massaaž ja inimese toetamine"
